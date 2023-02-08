@@ -38,7 +38,7 @@ function slideshow(){
         slidebar1.classList.add('open');
     }
 }
-//slide = setInterval(slideshow, 3250);
+slide = setInterval(slideshow, 3250);
 function TitleAnimation(){
     segundos ++;
     if(segundos>59){
