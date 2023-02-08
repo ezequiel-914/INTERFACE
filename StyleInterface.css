@@ -75,7 +75,7 @@
 .title1 h2{
     font-family: glitch;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.612);
-    font-size: 70px;
+    font-size: 90px;
 }
 .section-1{
     display: flex;
@@ -94,6 +94,8 @@
     height: 200px;
     background-size: cover;
     background-position: center center;
+    transform: rotate(0deg);
+    transition: all 0.3s;
 }
 .clock-mode-txt{
     flex: 2;
@@ -119,8 +121,9 @@
     align-items: center;
     text-align: center;
 }
-.timer-mode-img h2{
+.timer-mode-img span{
     font-size: 150px;
+    font-weight: 600;
     color: orange;
     text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.79);
 }
@@ -261,4 +264,12 @@
     box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.267);
     transform: translate(1px, 1px);
     transition: all 0,3s;
+}
+/*---------------------------------Media Query-------------------------------*/
+/*---------------------------------Media Query-------------------------------*/
+/*---------------------------------Media Query-------------------------------*/
+@media(max-width:950px){
+    .title1 h2{
+        font-size: 70px;
+    }
 }

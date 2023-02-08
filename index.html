@@ -5,29 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Time Control</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="StyleInterface.css">
 </head>
 <body>
     <main>
         <div class="slideshow">
-            <div class="sliders">
-                <div class="txt1">
+            <div id="sliders" class="sliders">
+                <div id="txt1" class="txt1">
                     <div class="title1"><h2>Escolha um modo:</h2></div>
                     <section class="section-1">
                         <div class="clock-mode-img">
-                            <img src="img/color-palette.png" alt="circulo-cromatico">
+                            <img id="img1" src="img/color-palette.png" alt="circulo-cromatico">
                         </div>
                         <div class="clock-mode-txt"><h2>color clock mode</h2></div>
                     </section>
                     <section class="section-1-2">
                         <div class="timer-mode-img">
-                            <h2>1:37</h2>
+                            <span id="min">1</span><span>:</span><span id="seg">00</span>
                         </div>
                         <div class="timer-mode-txt"><h2>timer mode</h2></div>
                     </section>
                 </div>
-                <div class="txt2">
-                    <div class="clock-mode-img"><img src="img/color-palette.png" alt="color-clock-mode"></div>
+                <div id="txt2" class="txt2">
+                    <div class="clock-mode-img"><img id="img2" src="img/color-palette.png" alt="color-clock-mode"></div>
                     <div class="clock-mode-title">
                         <div class="title2">
                             <h2>color clock mode</h2>
@@ -35,11 +35,11 @@
                     </div>
                     <div class="clock-mode-description">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quasi aliquam eligendi corporis repudiandae laudantium, officiis perferendis! Reprehenderit repellendus voluptate iusto. Aperiam harum molestiae adipisci vel suscipit soluta quisquam ducimus?</p>
-                        <a href="#">start</a>
+                        <a href="#">start!</a>
                     </div>
                 </div>
-                <div class="txt3">
-                    <div class="timer-mode-img"><h2>1:58</h2></div>
+                <div id="txt3" class="txt3">
+                    <div class="timer-mode-img"><span id="min3">1</span><span>:</span><span id="seg3">00</span></div>
                     <div class="timer-mode-title">
                         <div class="title3">
                             <h2>timer mode</h2>
@@ -47,7 +47,7 @@
                     </div>
                     <div class="timer-mode-description">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quasi aliquam eligendi corporis repudiandae laudantium, officiis perferendis! Reprehenderit repellendus voluptate iusto. Aperiam harum molestiae adipisci vel suscipit soluta quisquam ducimus?</p>
-                        <a href="#">start</a>
+                        <a href="#">start!</a>
                     </div>
                 </div>
 
@@ -60,6 +60,6 @@
             </div>
         </div>
     </main>
-    <script src="script.js"></script>
+    <script src="ScriptInterface.js"></script>
 </body>
 </html>
